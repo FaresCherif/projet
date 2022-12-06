@@ -1,0 +1,22 @@
+.chess-board { border-spacing: 0; border-collapse: collapse; }
+.chess-board td { border: 2px solid; width: 100px; height: 100px; }
+.chess-board .light { background: #eee; }
+#console {
+    background: #000;
+    border: 3px groove #ccc;
+    color: #ccc;
+    display: block;
+    padding: 5px;
+    width: 300px;
+
+}
+
+#screen{
+    display: flex;
+
+}
+
+#moves{
+    overflow-y: auto;
+    max-height: 320px; 
+}
